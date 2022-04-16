@@ -12,15 +12,24 @@
   },
   "author": "",
   "license": "ISC",
+  "browsersList": [
+    "> 1%"
+  ],
   "bugs": {
     "url": "https://github.com/KombinatorVit/Implementing-the-Data-Script-on-the-Server/issues"
   },
   "homepage": "https://github.com/KombinatorVit/Implementing-the-Data-Script-on-the-Server#readme",
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "core-js": "^3.22.0",
     "json-server": "^0.17.0",
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "es6-promise-polyfill": "^1.2.0",
     "jshint": "^2.13.4"
   }
 }
